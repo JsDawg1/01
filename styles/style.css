@@ -1,0 +1,47 @@
+body{
+    margin:0px;
+    padding:0px;
+}
+
+#count{
+    display: flex;
+    justify-content: center;
+    font-size: 40px;
+
+    
+}
+
+#increase{
+    background-color: black;
+    color:white;
+
+}
+#decrease{
+    background-color: black;
+    color:white;
+}
+#reset{
+    background-color: black;
+    color:white;
+}
+
+#increase:hover{
+    background-color: grey;
+    color:black;
+}
+
+#decrease:hover{
+    background-color: grey;
+    color:black;
+}
+
+#reset:hover{
+    background-color: grey;
+    color:black;
+}
+
+.buttons{
+    display: flex;
+    justify-content: center;
+    
+}

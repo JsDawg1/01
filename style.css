@@ -1,0 +1,124 @@
+.food-item{
+   display: flex;
+   justify-content: space-between;
+   cursor: pointer;
+   width:15vh;
+    
+}
+
+.show-hideBtn{
+   color:white;
+   background-color: cornflowerblue;
+   border-color:cornflowerblue;
+   border-radius: 10px;
+}
+
+
+.parent-div {
+   padding: 20px;
+   background-color: #f0f8ff; /* Light blue */
+   border: 1px solid #ccc;
+}
+
+.inner-div {
+   padding: 20px;
+   background-color: #faebd7; /* Antique white */
+   border: 1px solid #ccc;
+   margin-bottom: 10px; /* Space between inner div and layered div */
+}
+
+.layered-div {
+   padding: 20px;
+   background-color: #ffe4e1; /* Misty rose */
+   border: 1px solid #ccc;
+   margin-top: 10px; /* Space between layered div and p tag */
+}
+
+.layered-p {
+   padding: 20px;
+   background-color: #e6e6fa; /* Lavender */
+   border: 1px solid #ccc;
+}
+
+body {
+   font-family: Arial, sans-serif;
+   background-color: #f4f4f4;
+   margin: 0;
+   padding: 20px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   height: 100vh;
+}
+
+h2 {
+   text-align: center;
+   color: #333;
+}
+
+form {
+   background-color: #fff;
+   padding: 20px;
+   border-radius: 8px;
+   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+   width: 300px;
+}
+
+label {
+   display: block;
+   margin-bottom: 8px;
+   color: #555;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+select {
+   width: 100%;
+   padding: 8px;
+   margin-bottom: 15px;
+   border: 1px solid #ccc;
+   border-radius: 4px;
+   box-sizing: border-box;
+   font-size: 14px;
+}
+
+input[type="radio"],
+input[type="checkbox"] {
+   margin-right: 10px;
+}
+
+button {
+   width: 100%;
+   padding: 10px;
+   background-color: #28a745;
+   border: none;
+   border-radius: 4px;
+   color: #fff;
+   font-size: 16px;
+   cursor: pointer;
+}
+
+button[type="reset"] {
+   background-color: #dc3545;
+   margin-top: 10px;
+}
+
+button:hover {
+   opacity: 0.9;
+}
+
+.radio-class{
+   display: flex;
+}
+
+
+#noListh5{
+   display: flex;
+   justify-content: center;
+   opacity: 0.4;
+}
+
+#noListPic{
+   opacity: 0.4;
+}
